@@ -9,7 +9,554 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7f06bb0-fc97-46e5-96db-317bbedd996e" name="Changes" comment="add lab11" />
+    <list default="true" id="e7f06bb0-fc97-46e5-96db-317bbedd996e" name="Changes" comment="add lab11">
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/public/favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/public/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/src/ProductDetail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/src/ProductItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/src/ProductList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/src/assets/hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/src/assets/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/lab10/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/Controllers/StudentsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/Models/Student.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/Models/StudentContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/StudentsApi.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/StudentsApi.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Azure.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Azure.Identity.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.InMemory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.OpenApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/StudentsApi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/StudentsApi.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/StudentsApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/StudentsApi.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/StudentsApi.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/StudentsApi.staticwebassets.endpoints.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/System.ClientModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/System.Memory.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/Students.3FA088D3.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/StudentsApi.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/StudentsApi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/StudentsApi.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/StudentsApi.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/StudentsApi.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/StudentsApi.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/StudentsApi.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/StudentsApi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/StudentsApi.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/StudentsApi.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/StudentsApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/StudentsApi.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/StudentsApi.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/StudentsApi.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/apphost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/ref/StudentsApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/refint/StudentsApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/staticwebassets.build.endpoints.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/staticwebassets.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/Debug/net9.0/staticwebassets.build.json.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/StudentsApi.csproj.codegeneration.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/StudentsApi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/StudentsApi.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/StudentsApi.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsApi/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/.vscode/mcp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/about/about.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/about/about.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/about/about.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/about/about.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/app.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/app.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/app.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/student-detail/student-detail.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/student-detail/student-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/student-detail/student-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/student-detail/student-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/student.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/student.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/student.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/students/students.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/students/students.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/students/students.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/app/students/students.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab12/StudentsFront/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/ProjectEvaluation/webapiajax.metadata.v9.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/ProjectEvaluation/webapiajax.projects.v9.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/ProjectEvaluation/webapiajax.strings.v9.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/WebApiAjax/CopilotIndices/17.14.1347.20289/CodeChunks.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/WebApiAjax/CopilotIndices/17.14.1347.20289/SemanticSymbols.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/WebApiAjax/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/WebApiAjax/FileContentIndex/6f011446-5068-465a-815d-3b61b23c51d1.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/WebApiAjax/FileContentIndex/9121e245-7791-4adf-b58e-6b8fae2c58d0.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/WebApiAjax/FileContentIndex/c1a42499-5d93-4787-b80c-d4c441a06a30.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/WebApiAjax/FileContentIndex/cd3d47f6-f6f1-4a9f-ba4a-6d68279f7dd6.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/WebApiAjax/FileContentIndex/ec96ba2e-4934-4c11-ae65-90f930073506.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/WebApiAjax/config/applicationhost.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/WebApiAjax/v17/.futdcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/WebApiAjax/v17/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/WebApiAjax/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/.vs/WebApiAjax/v17/DocumentLayout.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/CalcResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/WebApiAjax.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/WebApiAjax.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/WebApiAjax.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/bin/Debug/net9.0/WebApiAjax.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/bin/Debug/net9.0/WebApiAjax.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/bin/Debug/net9.0/WebApiAjax.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/bin/Debug/net9.0/WebApiAjax.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/bin/Debug/net9.0/WebApiAjax.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/bin/Debug/net9.0/WebApiAjax.staticwebassets.endpoints.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/bin/Debug/net9.0/WebApiAjax.staticwebassets.runtime.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/bin/Debug/net9.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/bin/Debug/net9.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/ApiEndpoints.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/WebApiAjax.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/WebApiAjax.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/WebApiAjax.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/WebApiAjax.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/WebApiAjax.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/WebApiAjax.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/WebApiAjax.csproj.BuildWithSkipAnalyzers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/WebApiAjax.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/WebApiAjax.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/WebApiAjax.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/WebApiAjax.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/WebApiAjax.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/WebApiAjax.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/compressed/zh166eom6d-8gpkxyzlwb.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/rbcswa.dswa.cache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/ref/WebApiAjax.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/refint/WebApiAjax.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/rjimswa.dswa.cache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/staticwebassets.build.endpoints.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/staticwebassets.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/staticwebassets.build.json.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/staticwebassets.development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/staticwebassets.references.upToDateCheck.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/staticwebassets.removed.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/Debug/net9.0/staticwebassets.upToDateCheck.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/WebApiAjax.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/WebApiAjax.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/WebApiAjax.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/WebApiAjax/wwwroot/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/CompanyApi/CopilotIndices/17.14.1347.20289/CodeChunks.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/CompanyApi/CopilotIndices/17.14.1347.20289/SemanticSymbols.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/CompanyApi/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/CompanyApi/FileContentIndex/09a3ed7b-44cc-4f29-b949-a87df4a6f15e.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/CompanyApi/FileContentIndex/1ffa7521-0839-4556-99c3-c96fa9ce2d7a.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/CompanyApi/FileContentIndex/296fadb6-1c3e-4774-a051-7e8fabaa3c57.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/CompanyApi/FileContentIndex/9aaaf3bd-c626-4298-aae9-0cc8c113b5dd.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/CompanyApi/FileContentIndex/bf86e97c-896f-4213-9272-918827397fec.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/CompanyApi/config/applicationhost.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/CompanyApi/v17/.futdcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/CompanyApi/v17/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/CompanyApi/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/CompanyApi/v17/DocumentLayout.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/ProjectEvaluation/companyapi.metadata.v9.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/ProjectEvaluation/companyapi.projects.v9.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/.vs/ProjectEvaluation/companyapi.strings.v9.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/CompanyApi.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/CompanyApi.csproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/CompanyApi.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/CompanyApi.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/Controllers/DepartmentController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/Controllers/EmployeesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/Models/CompanyDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/Models/Department.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/Models/DepartmentDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/Models/Employee.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/Models/EmployeeDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/WeatherForecast.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Azure.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Azure.Identity.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/CompanyApi.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/CompanyApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/CompanyApi.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/CompanyApi.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/CompanyApi.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/CompanyApi.staticwebassets.endpoints.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.AspNetCore.Razor.Language.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.Build.Framework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.Build.Locator.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.Build.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.CodeAnalysis.Elfie.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.CodeAnalysis.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.CodeAnalysis.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.CodeAnalysis.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.DiaSymReader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.DotNet.Scaffolding.Shared.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.NET.StringTools.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.OpenApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.VisualStudio.Web.CodeGeneration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Mono.TextTemplating.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/NuGet.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/NuGet.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/NuGet.DependencyResolver.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/NuGet.Frameworks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/NuGet.LibraryModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/NuGet.Packaging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/NuGet.ProjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/NuGet.Protocol.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/NuGet.Versioning.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/System.ClientModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/System.CodeDom.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/System.Composition.AttributedModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/System.Composition.Convention.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/System.Composition.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/System.Composition.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/System.Composition.TypedParts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/System.Memory.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/System.Reflection.MetadataLoadContext.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/af/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ar/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/az/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/bg/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/bn-BD/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/cs/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/da/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/de/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/dotnet-aspnet-codegenerator-design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/el/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/es/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/fa/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/fi-FI/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/fr-BE/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/fr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/he/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/hr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/hu/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/hy/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/id/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/is/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/it/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ja/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ko-KR/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ku/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/lv/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ms-MY/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/mt/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/nb-NO/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/nb/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/nl/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pl/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/pt/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ro/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ru/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/sk/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/sl/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/sr-Latn/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/sr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/sv/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/th-TH/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/tr/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/uk/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/uz-Cyrl-UZ/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/uz-Latn-UZ/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/vi/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-CN/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hans/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hant/Humanizer.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/CompanyApi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/CompanyApi.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/CompanyApi.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/ApiEndpoints.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/CompanyApi.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/CompanyApi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/CompanyApi.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/CompanyApi.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/CompanyApi.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/CompanyApi.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/CompanyApi.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/CompanyApi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/CompanyApi.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/CompanyApi.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/CompanyApi.csproj.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/CompanyApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/CompanyApi.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/CompanyApi.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/CompanyApi.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/ref/CompanyApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/refint/CompanyApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/staticwebassets.build.endpoints.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/staticwebassets.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/staticwebassets.build.json.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/staticwebassets.references.upToDateCheck.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/Debug/net9.0/staticwebassets.removed.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/CompanyApi/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/.idea/jpa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Client/src/main/java/lab/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Server/src/main/java/lab/data/ComplaintRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Server/src/main/java/lab/dto/ComplaintDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Server/src/main/java/lab/entities/Complaint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Server/src/main/java/lab/resources/ComplaintApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Server/src/main/java/lab/resources/ComplaintResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Server/src/main/java/lab/services/ComplaintService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Server/src/main/java/lab/services/ModelMapperProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Server/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/Server/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9/Complaints/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,38 +606,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;GlassFish Server.GlassFish 7.2026.2.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;Spring Boot.BookingsApplication.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mateuszpuk/Downloads/Requests&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "GlassFish Server.GlassFish 7.2026.2.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.BookingsApplication.executor": "Run",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mateuszpuk/Downloads/tak-",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lab3" />
       <recent name="$PROJECT_DIR$/lab4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -147,15 +698,6 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <configuration name="BookingsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="bookings" />
@@ -185,6 +727,7 @@
       <workItem from="1775762514728" duration="2711000" />
       <workItem from="1776368115495" duration="1130000" />
       <workItem from="1779998302188" duration="1918000" />
+      <workItem from="1781819955372" duration="176000" />
     </task>
     <task id="LOCAL-00001" summary="init repo">
       <option name="closed" value="true" />
@@ -247,6 +790,12 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/lab12/StudentsFront/node_modules/piscina/test/fixtures/wait-for-notify.js" />
+        <option value="$PROJECT_DIR$/lab12/StudentsFront/node_modules/piscina/test/fixtures/notify-then-sleep-or.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
